@@ -89,4 +89,10 @@ SELECT * FROM Employees WHERE city IS NOT NULL;
 
 -- 14. Aliases
 SELECT name AS Employee_Name, salary AS Income
-FROM Employees;
+FROM Employees; 
+
+truncate table employees;  #truncate table it removes all data with out eliminating its structure ddl
+
+select * from employees; 
+
+drop table employees;       #drops the entire table ddl
